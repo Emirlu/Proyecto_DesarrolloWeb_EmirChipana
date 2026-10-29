@@ -204,3 +204,45 @@ html{
 .columna-info li{
     margin-bottom: 5px;
 }
+
+/* =====================
+   ESTILOS DE BOOTSTRAP 
+   =====================*/
+
+
+.tarjeta-libro.card {
+    background-color: rgba(15, 15, 25, 0.9) !important;
+    border: 2px solid #e5a00d !important;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.tarjeta-libro {
+    transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+}
+.tarjeta-libro:hover {
+    transform: translateY(-10px); 
+}
+
+
+.tarjeta-libro:hover {
+    box-shadow: 0 12px 25px rgba(229, 160, 13, 0.4);
+}
+
+
+.tarjeta-libro img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+.tarjeta-libro:hover img {
+    transform: scale(1.06); 
+    filter: brightness(1.15); 
+}
+
+
+.tarjeta-libro h3 a {
+    transition: color 0.3s ease;
+}
+.tarjeta-libro h3 a:hover {
+    color: #ffc107 !important; 
+}
